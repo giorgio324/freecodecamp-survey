@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,p,a,label{
+    color: white;
+    font-size: 1.35rem;
+}
+.section_center{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+.main_background{
+    min-height: 115vh;
+    background: linear-gradient(rgba(202, 11, 11, 0.7),rgba(14, 11, 202, 0.8)),url(https://images.hdqwalls.com/download/marvel-spiderman-4w-2048x1152.jpg) center/cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100vh;
+    display: block;
+}
+.title{
+    padding: 1.5rem;
+}
+.title p{
+    padding: 0.5rem;
+    font-size: 1.05rem;
+    text-transform: capitalize;
+}
+.main_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 25px;
+    min-height: 100vh;
+    width: 95%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4));
+}
+.input_form{
+    text-align: left;
+}
+#number,#number-label,#email,#email-label,#name,#name-label,#input_form{
+    padding: 0.3rem;
+    font-size: 1.35rem;
+}
+#number,#name,#email{
+    border-radius: 8px;
+}
+.dropdown_table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+#dropdown{
+    margin-top: 1rem;
+    margin-bottom: -0.5rem;
+    font-size: 1.35rem;
+}
+.radio_buttons{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+.radio_buttons_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+}
+.subscribe{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+#subscribe{
+    padding: 0.3rem;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.box,.box_1{
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.box_1{
+    margin-bottom: -0.5rem;
+}
+
+.comment_section{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.comment_center{
+    display: flex;
+    flex-direction: column;
+}
+#comment{
+    margin-top: 1rem;
+    max-width: 28rem;
+    min-height: 5rem;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+}
+#submit{
+    text-transform: uppercase;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:992px) {
+    .main_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-height: 80vh;
+    width: 50%;
+    }
+}
+@media screen and (min-height:450px) {
+    .main_background{
+    min-height: 230vh;
+    }
+}
+@media screen and (min-height:550px) {
+    .main_background{
+    min-height: 200vh;
+    }
+}
+@media screen and (min-height:650px) {
+    .main_background{
+    min-height: 170vh;
+    }
+}
+@media screen and (min-height:750px) {
+    .main_background{
+    min-height: 140vh;
+    }
+}
+@media screen and (min-height:900px) {
+    .main_background{
+    min-height: 125vh;
+    }
+}
+@media screen and (min-height:980px) {
+    .main_background{
+    min-height: 115vh;
+    }
+}

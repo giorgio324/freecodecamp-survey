@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main_background">
+        <div class="main_content">
+            <div class="title">
+                <h1 id='title'>what is the best spider-man movie?</h1>
+                <p id='description'>in this survey we want to find out what is the best spiderman movie and who is the best spiderman actor</p>
+            </div>
+            <form id='survey-form'>
+                <div class="input_form section_center">
+                    <label id="name-label" for='name'>enter your name</label>
+                    <input id='name' type="text" placeholder='name' required>
+                    <label id="email-label" for='email'>entet your email</label>
+                    <input id='email' type='email' placeholder='email' required>
+                    <label id="number-label" for='number'>enter your age</label>
+                    <input id='number' type='number' placeholder='age' min='16' max='99' required>
+                </div>
+                <div class="dropdown_table section_center">
+                    <label id='drop-table' for='dropdown'>select the best spiderman movie</label>
+                <select name='best-movie' id='dropdown'>
+                    <option value='spider-man' id='spider-man'>spider-man</option>
+                    <option value='spider-man' id='spider-man'>spider-man2</option>
+                    <option value='spider-man' id='spider-man'>spider-man3</option>
+                    <option value='spider-man' id='spider-man'>the amazing spider-man</option>
+                    <option value='spider-man' id='spider-man'>the amazing spider-man2</option>
+                    <option value='spider-man' id='spider-man'>spider-man homecomeing</option>
+                    <option value='spider-man' id='spider-man'>spider-man far from home</option>
+                    <option value='spider-man' id='spider-man'>spider-man no way home</option>
+                </select>
+                </div>
+                <div class="radio_buttons section_center">
+                    <p>selcet the best spiderman actor</p>
+                    <div class="radio_buttons_flex">
+                        <input type='radio' id='toby' value='toby' name='spidey'>
+                        <label for="toby">Toby</label>
+                        <input type='radio' id='andrew' value='andrew'name='spidey'>
+                        <label for="andrew">Andrew</label>
+                        <input type='radio' id='tom' value='tom' name='spidey'>
+                        <label for="tom">Tom</label>
+                    </div>
+                </div>
+                <div class="subscribe section_center">
+                    <p>subscribe to our survey page to recive more of them</p>
+                    <div class="box">
+                        <label for="subscribe">yes i would like to recive more surveyes</label>
+                        <input type='checkbox' id='subscribe' value='subscribed' name='watch'>
+                    </div>
+                    <div class="box_1">
+                        <label for="agree">i agree with rules</label>
+                        <input type='checkbox' id='agree' value='subscribed' name='watch'>
+                    </div>
+                </div>
+                <div class="comment_section section_center">
+                    <div class="comment_center">
+                        <label id=text-box for='comment'>leave your toughts about the future of spiderman movies</label>
+                        <textarea id='comment' name='comment' rows='10' cols='100'></textarea>
+                    </div>
+                    
+                </div>
+                    <input type='submit' id='submit' value='submit'>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
